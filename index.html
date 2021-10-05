@@ -17,17 +17,10 @@
     <!-- <h1 style="color: red">Chinmay's Component Library</h1> -->
     <h1 id="lib-header">Chinmay's Component Library</h1>
     <p class="para"><strong>Adarsh Balika </strong>is attending neog.camp and is currently completing levelZero one weekend and assignment at a time.
-        <br>
-        <br>
 
-        This is a component library created by her to better design each element.
-        <br>
-        <br>
+    <p>This is a component library created by her to better design each element.</p>
         
-        After creating this library she is going to use the components in her <strong>portfolio, blog and all projects </strong>created. This will ensure that all her projects have <strong>consistent themeing and styling</strong>
-        
-        </p>
-
+    <p>After creating this library she is going to use the components in her <strong>portfolio, blog and all projects </strong>created. This will ensure that all her projects have <strong>consistent themeing and styling</strong></p>
     <hr>
     <h2>@typography</h2>
     <h1>The biggest heading h1</h1>
@@ -58,7 +51,7 @@
     
     <h2>@lists</h2>
 
-    <h3>unordered list</h3>
+    <h3>unordered lists</h3>
     <p>We don't want to show bullets in the unordered list. We'll remove that with CSS.</p>
     
     <ul class="list-non-bullet">
@@ -68,14 +61,16 @@
 
     </ul>
 
-    <h3>unordered inline list</h3>
+    <h3>inline lists</h3>
+    <p>Instead of going in a new row, we will create a list which will take columns.</p>
     <ul class="list-non-bullet">
-    <li class="list-item-inline">Inline Item one</li>
-    <li class="list-item-inline">Inline Item two</li>
-    <li class="list-item-inline">Inline Item three</li>
+    <li class="list-item-inline">Item one</li>
+    <li class="list-item-inline">Item two</li>
+    <li class="list-item-inline">Item three</li>
     </ul>
 
-    <h3>reverse ordered list</h3>
+    <h3>reverse ordered lists</h3>
+    <p>Counting of will go reverse for this list</p>
     <ol reversed>
     <li>milk</li>
     <li>eggs</li>
@@ -85,28 +80,30 @@
     <hr>
 
     <h2>@nav</h2>
+    <p>Navigation is used on the top of the page and used to get to different pages</p>
 
-    <nav>
-    <div>iamBrand</div>
-    <ul>
-        <li>
-        <a href="/">home</a>
+    <nav class="navigation container">
+    <div class="nav-brand">iamBrand</div>
+    <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline link-active">
+        <a class="link" href="/">home</a>
         </li>
-        <li>
-        <a href="/">products</a>
+        <li class="list-item-inline">
+        <a class="link" href="/">products</a>
         </li>
-        <li>
-        <a href="/">About</a>
+        <li class="list-item-inline">
+        <a class="link" href="/">About</a>
         </li>
     </ul>
     </nav>
 
     <hr>
-    <h2>header</h2>
+    <h2>@header</h2>
 
-    <header>
-    <img src="images/hero.svg" />
-    <h1>heading inside header(called as hero)</h1>
+    <header class="hero">
+    <img class="hero-img" src="images/hero.svg" />
+    <h1 class="hero-heading">this is heading h1 <span style="color: var(--primary-color)">inside header</span></h1>
+<!-- heading inside header(called as hero) -->
     
     </header>
 
