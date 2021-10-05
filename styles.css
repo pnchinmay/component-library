@@ -3,6 +3,7 @@
 :root {
     --primary-color: #4F46E5;
     --dark-gray: #6B7280;
+    --off-white: #F3F4F6;
 }
 
 body {
@@ -19,7 +20,7 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 50%;
     margin: auto;
 }
 
@@ -81,10 +82,12 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 80%;
+    width: 350px;
     display: block;
     margin: auto;
 }
@@ -94,4 +97,16 @@ hr {
     color: var(--dark-gray);
     text-align: center;
     /* font-size: ; */
+}
+
+/** section **/
+.section {
+    padding: 2rem;
+}
+.section h1{
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
 }
